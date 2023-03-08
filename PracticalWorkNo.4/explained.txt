@@ -1,0 +1,22 @@
+6_9.txt explained
+
+topological sort = 3 5 0 2 1 4
+
+0->1 cost=71
+0->1->4 cost=121
+1->4 cost=50
+2->1 cost=80
+2->1->4 cost=130
+3->0 cost=38
+3->0->1 cost=109
+3->0->1->4 cost=159
+5->0 cost=7
+5->0->1 cost=78
+5->0->1->4 cost=128
+
+8_12.txt explained
+
+topological sort = 6 0 5 1 2 3 4 7
+
+5->2->3->4 cost=126
+6->0->4 cost=148
